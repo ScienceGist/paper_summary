@@ -1,0 +1,14 @@
+HTTP/1.1 302 Found
+Date: Wed, 24 Jul 2013 10:31:11 GMT
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Last-Modified: Wed, 24 Jul 2013 10:31:11 +0000
+Cache-Control: no-cache, must-revalidate, post-check=0, pre-check=0
+ETag: "1374661871"
+Location: http://elife.elifesciences.org/content/1/e00013
+Vary: Accept-Encoding
+X-Highwire-Sitecode: elife
+Connection: close
+Content-Type: text/html; charset=UTF-8
+Set-Cookie: avr_3826342706_0_0_4294901760_1418389180_0=1976843560_23628500;max-age=300;path=/
+Transfer-Encoding: chunked
+

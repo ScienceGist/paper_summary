@@ -1,0 +1,12 @@
+HTTP/1.1 303 See Other
+Server: Apache-Coyote/1.1
+Vary: Accept
+Location: http://elife.elifesciences.org/lookup/doi/10.7554/eLife.00013
+Expires: Thu, 25 Jul 2013 09:30:47 GMT
+Content-Type: text/html;charset=utf-8
+Content-Length: 208
+Date: Wed, 24 Jul 2013 10:24:44 GMT
+
+
+<HTML><HEAD><TITLE>Handle Redirect</TITLE></HEAD>
+<BODY><A HREF="http://elife.elifesciences.org/lookup/doi/10.7554/eLife.00013">http://elife.elifesciences.org/lookup/doi/10.7554/eLife.00013</A></BODY></HTML>
