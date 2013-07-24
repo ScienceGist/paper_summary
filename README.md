@@ -1,12 +1,12 @@
-# PaperMetadata
+# PaperSummary
 
-PaperMetadata is a gem that gets a publication's metadata by accessing the CrossRef OpenURL API.
+PaperSummary is a gem that gets a publication's summary by accessing eLife's content. We'll add more sources as we go along.
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
-    gem 'paper_metadata'
+    gem 'paper_summary'
 
 And then execute:
 
@@ -14,25 +14,19 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install paper_metadata
+    $ gem install paper_summary
 
 ## Usage
 
-You can use PaperMetadata like this:
+You can use PaperSummary like this:
 
-    result = PaperMetadata.metadata_for('doi:10.1021/ac1014832')
+    result = PaperSummary.summary_for('doi:10.7554/eLife.00013')
 
 The result will be a hash similar to this one:
 
-    { :volume=>"82",
-      :isssue=>"19",
-      :first_page=>"8153",
-      :last_page=>"8160",
-      :title=>
-      "Basic Modeling Approach To Optimize Elemental Imaging by Laser Ablation ICPMS",
-      :authors=>"Jure Triglav, Johannes T. van Elteren, Vid S. Šelih",
-      :journal=>"Anal. Chem. 2010",
-      :resource=>"http://pubs.acs.org/doi/abs/10.1021/ac1014832" }
+    { summary_text: 'Short summary text',
+      summary_html: '<p>Short summary html</p>'
+    }
 
 ## Contributing
 
