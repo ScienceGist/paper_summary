@@ -5,7 +5,6 @@ require 'open-uri'
 require 'cgi'
 require 'uri'
 require 'json'
-require 'pry'
 
 module PaperSummary
   class << self
