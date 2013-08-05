@@ -37,3 +37,7 @@ The result will be a hash similar to this one:
 5. Create new Pull Request
 
 Be sure to run the specs too.
+
+## License
+
+This gem is licensed under the MIT license.
